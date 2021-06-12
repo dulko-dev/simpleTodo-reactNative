@@ -12,6 +12,7 @@ const TodoNav = () => {
 const styles = StyleSheet.create({
   content: {
     height: 40,
+    marginTop:20,
     borderWidth: 1,
     borderRadius: 8,
   },
