@@ -13,7 +13,7 @@ const TodoInput = ({ handleAdd, setText, text }) => {
       <TextInput
         style={styles.input}
         placeholder="click to add task"
-        onChangeText={(val) => handleText(val)}
+        onChangeText={(value) => handleText(value)}
         value={text}
       />
       <Pressable style={styles.button} onPress={() => handleAdd(text)}>

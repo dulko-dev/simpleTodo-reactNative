@@ -3,6 +3,7 @@ import { Text, TouchableOpacity } from "react-native";
 import styles from "./style";
 
 const TodoList = ({ item, setList }) => {
+  
   const handleRemove = (key) => {
     setList((prevState) => {
       return prevState.filter((list) => list.key != key);

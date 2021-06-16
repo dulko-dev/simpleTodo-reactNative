@@ -9,7 +9,7 @@ const styles = StyleSheet.create({
     width: "100%",
   },
   input: {
-    marginBottom: 30,
+ 
     color: "#000500",
     borderBottomWidth: 1,
     borderColor: "#545454",
